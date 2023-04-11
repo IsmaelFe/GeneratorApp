@@ -84,19 +84,26 @@ body {
   cursor: pointer;
   box-shadow: 0px 0px 40px #53FEAD;
 }
-
 @media (min-width: 500px) {
-  .firts-container {
+  .container-main .firts-container {
     width: 550px;
+  }
+  .container-main .bar-container div {
+    margin-left: 30px;
+    width: 40%;
+  }
+  .container-main .bar-container div {
+    margin-right: 30px;
+    width: 40%;
   }
 }
 @media (max-width: 390px) {
-  .firts-container {
+  .container-main .firts-container {
     height: 490px;
     width: 280px;
   }
-  .bar-container {
-    margin-top: 30px;
+  .container-main .bar-container {
+    margin-top: 50px;
   }
 }
 
